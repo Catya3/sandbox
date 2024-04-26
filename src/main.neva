@@ -1,0 +1,4 @@
+pub type Foo struct {}
+
+#extern(test_component)
+pub component TestComponent(in any) (out Foo)
